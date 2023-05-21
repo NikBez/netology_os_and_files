@@ -23,5 +23,6 @@ def merge_files(path):
 
 
 if __name__ == "__main__":
-    merge_dir = Path('task_3')
+    base_path = os.getcwd()
+    merge_dir = Path(base_path)/'task_3'
     merge_files(merge_dir)
